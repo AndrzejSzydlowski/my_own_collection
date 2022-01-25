@@ -1,0 +1,5 @@
+---      
+- name: run module
+  module_test:
+    path: "test"
+    content: "test content"

@@ -1,0 +1,9 @@
+---
+  - name: run test_module.py
+    hosts: localhost
+    tasks: 
+      - name: run module
+        module_test:
+          path: "test"
+          content: "test content"
+
